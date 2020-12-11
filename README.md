@@ -9,6 +9,10 @@ The folder structure should contain the following files & folders:
     * parameters_high_alpha.json
     * parameters_low_alpha.json
     * parameters_mid_alpha.json
+    * testSample_1-3.json
+    * testSample_2-4.json
+    * testSample_4-6.json
+    * testSample_6-8.json
     * samples folder
     * requirements.txt
 
@@ -27,7 +31,7 @@ This file contains the code needed to do the phase based magnification approach 
 This file has some helper functions that is commonly used, things like extracting video frames, saving frames, building pyramids, etc..
 
 * .json files
-The three json files contain the video file names, with the magnification & frequency range parameters used for building the results provided
+The json files contain the video file names, with the magnification & frequency range parameters used for building the results provided
 
 * samples folder:
 This is where the code looks for the video files, video file names should match what is given in the json files
