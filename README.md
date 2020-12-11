@@ -2,15 +2,17 @@
 
 The folder structure should contain the following files & folders:
 
-* build.py
-* eulerian_magnification.py
-* phase_based_magnification.py
-* common.py
-* parameters_high_alpha.json
-* parameters_low_alpha,json
-* parameters_mid_alpha.json
-* samples folder
-* requirements.txt
+    * build.py
+    * eulerian_magnification.py
+    * phase_based_magnification.py
+    * common.py
+    * parameters_high_alpha.json
+    * parameters_low_alpha,json
+    * parameters_mid_alpha.json
+    * samples folder
+    * requirements.txt
+
+# File contents
 
 * build.py
 This is the main code to run for doing both Eulerian & Riesz pyramids phase based magnification
