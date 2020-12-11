@@ -7,7 +7,7 @@ The folder structure should contain the following files & folders:
     * phase_based_magnification.py
     * common.py
     * parameters_high_alpha.json
-    * parameters_low_alpha,json
+    * parameters_low_alpha.json
     * parameters_mid_alpha.json
     * samples folder
     * requirements.txt
