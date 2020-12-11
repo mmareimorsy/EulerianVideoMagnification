@@ -27,13 +27,6 @@ This file has some helper functions that is commonly used, things like extractin
 * .json files
 The three json files contain the video file names, with the magnification & frequency range parameters used for building the results provided
 
-The json files are structured as:
-magnificationMethod{
-    videoFileName{
-        magnification parameters filled in here
-    }
-}
-
 * samples folder:
 This is where the code looks for the video files, video file names should match what is given in the json files
 
@@ -41,6 +34,15 @@ This is where the code looks for the video files, video file names should match 
 This is a snapshot of the libraries & versions used, this could be used as 
 python3 -m pip install -r requirements.txt
 
+# JSON files
+
+The json files are structured as:
+
+magnificationMethod{
+    videoFileName{
+        magnification parameters filled in here
+    }
+}
 
 # How to get the results & what to expect
 
