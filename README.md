@@ -41,9 +41,13 @@ python3 -m pip install -r requirements.txt
 The json files are structured as:
 
 magnificationMethod{
+
     videoFileName{
+
         magnification parameters filled in here
+    
     }
+    
 }
 
 # How to get the results & what to expect
