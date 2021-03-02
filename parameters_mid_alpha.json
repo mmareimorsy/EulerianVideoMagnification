@@ -1,0 +1,105 @@
+{
+    "eulerian" : {
+        "baby.mp4":{
+            "alpha": 15,
+            "lambda_c":8,
+            "samplingRate": 30,
+            "chromeAttenuation": 0.1,
+            "lowFreq": 0.4,
+            "highFreq":3,
+            "filter": "butter"
+        },
+        "camera.mp4":{
+            "alpha": 75,
+            "lambda_c":10,
+            "samplingRate": 300,
+            "chromeAttenuation": 0,
+            "lowFreq": 45,
+            "highFreq":100,
+            "filter": "butter"
+        },
+        "subway.mp4":{
+            "alpha": 30,
+            "lambda_c":45,
+            "samplingRate": 30,
+            "chromeAttenuation": 0.3,
+            "lowFreq": 3.6,
+            "highFreq":6.2,
+            "filter": "butter"
+        },
+        "wrist.mp4":{
+            "alpha": 15,
+            "lambda_c":8,
+            "samplingRate": 30,
+            "chromeAttenuation": 0.1,
+            "lowFreq": 0.4,
+            "highFreq":3,
+            "filter": "butter"
+        },
+        "shadow.mp4":{
+            "alpha": 5,
+            "lambda_c":48,
+            "samplingRate": 30,
+            "chromeAttenuation": 0,
+            "lowFreq": 0.5,
+            "highFreq":10,
+            "filter": "butter"
+        },
+        "face2.mp4":{
+            "alpha": 10,
+            "lambda_c":40,
+            "samplingRate": 30,
+            "chromeAttenuation": 1,
+            "lowFreq": 0.5,
+            "highFreq":10,
+            "filter": "butter"
+        },
+        "testSample.mp4":{
+            "alpha": 20,
+            "lambda_c":5,
+            "samplingRate": 60,
+            "chromeAttenuation": 0.25,
+            "lowFreq": 1,
+            "highFreq":3,
+            "filter": "butter"
+        }
+    },
+    "riesz": {
+        "baby.mp4":{
+            "alpha": 15,
+            "samplingRate": 30,
+            "lowFreq": 0.4,
+            "highFreq":3
+        },
+        "camera.mp4":{
+            "alpha": 75,
+            "samplingRate": 300,
+            "lowFreq": 45,
+            "highFreq":100
+        },
+        "subway.mp4":{
+            "alpha": 30,
+            "samplingRate": 30,
+            "lowFreq": 3.6,
+            "highFreq":6.2
+        },
+        "wrist.mp4":{
+            "alpha": 15,
+            "samplingRate": 30,
+            "lowFreq": 0.4,
+            "highFreq":3
+        },
+        "shadow.mp4":{
+            "alpha": 5,
+            "samplingRate": 30,
+            "lowFreq": 0.5,
+            "highFreq":10
+        },
+        "face2.mp4":{
+            "alpha": 10,
+            "samplingRate": 30,
+            "lowFreq": 0.5,
+            "highFreq":10
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "eulerian" : {
+        "testSample.mp4":{
+            "alpha": 25,
+            "lambda_c":5,
+            "samplingRate": 30,
+            "chromeAttenuation": 0.1,
+            "lowFreq": 1,
+            "highFreq":3,
+            "filter": "ideal"
+        }
+    }
+}
