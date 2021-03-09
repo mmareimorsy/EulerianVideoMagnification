@@ -1,20 +1,14 @@
 # EulerianVideoMagnification
 
-The folder structure should contain the following files & folders:
+This repo attempts to implement two methods of video magnification; video magnification here means taking a video that appears to be almost steady without movement but in reality it has very subtle movements that one typically can't see very clearly, the idea is to detect & magnify those movements & regenerate the video with the magnified motions while trying to keep the video in a decent quality.
 
-    * build.py
-    * eulerian_magnification.py
-    * phase_based_magnification.py
-    * common.py
-    * parameters_high_alpha.json
-    * parameters_low_alpha.json
-    * parameters_mid_alpha.json
-    * testSample_1-3.json
-    * testSample_2-4.json
-    * testSample_4-6.json
-    * testSample_6-8.json
-    * samples folder
-    * requirements.txt
+The two implementations here are:
+* Eulerian video magnification as described in SIGGRAPH2012; which is based on magnifying intensities of pixels that are detected to be moving (http://people.csail.mit.edu/mrub/papers/vidmag.pdf).
+
+* Phase based video magnification as described in SIGGRAPH2013; which is based on magnifying the changing phase; However, I have implemented the follow up approach that uses Riesz pyramids instead of complex steerable filters.
+http://people.csail.mit.edu/nwadhwa/phase-video/
+https://people.csail.mit.edu/nwadhwa/riesz-pyramid/RieszPyr.pdf
+
 
 # File contents
 
@@ -57,6 +51,10 @@ The json files are structured as:
 # How to get the results & what to expect
 
 To run the code:
+
+install the requirements first:
+
+python3 -m pip install -r requirements.txt
 
 python3 build.py
 
