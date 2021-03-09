@@ -6,8 +6,8 @@ The two implementations here are:
 * Eulerian video magnification as described in SIGGRAPH2012; which is based on magnifying intensities of pixels that are detected to be moving (http://people.csail.mit.edu/mrub/papers/vidmag.pdf).
 
 * Phase based video magnification as described in SIGGRAPH2013; which is based on magnifying the changing phase; However, I have implemented the follow up approach that uses Riesz pyramids instead of complex steerable filters.
-http://people.csail.mit.edu/nwadhwa/phase-video/
-https://people.csail.mit.edu/nwadhwa/riesz-pyramid/RieszPyr.pdf
+(http://people.csail.mit.edu/nwadhwa/phase-video/)
+(https://people.csail.mit.edu/nwadhwa/riesz-pyramid/RieszPyr.pdf)
 
 
 # File contents
